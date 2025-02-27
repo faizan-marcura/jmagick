@@ -42,4 +42,4 @@ jobs:
       - name: Push Docker image
         run: |
           echo "Pushing image: uk-london-1.ocir.io/axoljy8w1ft0/dadesk-shared-devops/jmagick:${{ env.BUILD_TAG }}"
-          docker push uk-london-1.ocir.io/axoljy8w1ft0/dadesk-shared-devops/jmagick:${{ env.BUILD_TAG }
+          docker push uk-london-1.ocir.io/axoljy8w1ft0/dadesk-shared-devops/jmagick:${{ env.BUILD_TAG }}
